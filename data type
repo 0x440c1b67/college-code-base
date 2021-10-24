@@ -1,0 +1,36 @@
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+int main()
+{
+	int num1;
+	short num2;
+	long num3;
+	long long num4;
+	float num5;
+	double num6;
+	char ch1;
+	string ch2;
+
+	num1 = 10;
+	num2 = 10;
+	num3 = 10;
+	num4 = 10;
+	num5 = 3.14;
+	num6 = 3.14;
+	ch1 = 'a';
+	ch2 = "hello,world";
+
+	cout << num1 << endl;
+	cout << num2 << endl;
+	cout << num3 << endl;
+	cout << num4 << endl;
+	cout << num5 << endl;
+	cout << num6 << endl;
+	cout << ch1 << endl;
+	cout << ch2 << endl;
+
+	return 0;
+}
